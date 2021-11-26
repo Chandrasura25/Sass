@@ -1,0 +1,70 @@
+section{
+    display: flex;
+    
+    #pic{
+        border: 5px solid transparent;
+        width: 30%;
+        height:615px;
+        background: repeating-radial-gradient(lavender,grey);
+        #Asura{
+            height: 200px;
+            width: 150px;
+            margin: 40px;
+            margin-left: 65px;
+            border-radius: 20% 0% 20% 0%;
+        }
+        h3{
+            color: rgb(75, 100, 50);
+            font-size: 30px;
+           margin-left: 60px;
+           margin-top: -30px;
+        }
+        p{
+            color: rgb(133, 80, 177);
+            font-size: 30px;
+           margin-left: 50px;
+           margin-top: -30px;
+           font-family: 'Times New Roman', Times, serif; 
+        }
+        input{
+            border: 2px solid black;
+            height: 2px;
+            width: 280px;
+            margin-left: 7px;
+        }
+        h2{
+            margin-left: 50px;
+        }
+        i{
+            border: 2px dotted rgb(1, 1, 3);
+            height: 20px;
+            margin-inline: 5px;
+            margin-left: 40px;
+        }
+    }
+    #main{
+        width: 68%;
+       border: 3px solid transparent;
+       margin-left: 7px;
+       b{
+           font-size: 40px;
+           color: lightpink;
+           margin-top: 20px;
+       }
+       p{
+           font-size: 20px;
+       }
+       button{
+           color: maroon;
+           border-radius: 50%;
+           height: 40px;
+           width: fit-content;
+           margin: 8px;
+       }
+       button:hover{
+           cursor: pointer;
+           color: mediumorchid;
+           background-color: oldlace;
+       }
+    } 
+}

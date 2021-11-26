@@ -1,0 +1,86 @@
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section #pic {
+  border: 5px solid transparent;
+  width: 30%;
+  height: 615px;
+  background: repeating-radial-gradient(lavender, grey);
+}
+
+section #pic #Asura {
+  height: 200px;
+  width: 150px;
+  margin: 40px;
+  margin-left: 65px;
+  border-radius: 20% 0% 20% 0%;
+}
+
+section #pic h3 {
+  color: #4b6432;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-top: -30px;
+}
+
+section #pic p {
+  color: #8550b1;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: -30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section #pic input {
+  border: 2px solid black;
+  height: 2px;
+  width: 280px;
+  margin-left: 7px;
+}
+
+section #pic h2 {
+  margin-left: 50px;
+}
+
+section #pic i {
+  border: 2px dotted #010103;
+  height: 20px;
+  margin-inline: 5px;
+  margin-left: 40px;
+}
+
+section #main {
+  width: 68%;
+  border: 3px solid transparent;
+  margin-left: 7px;
+}
+
+section #main b {
+  font-size: 40px;
+  color: lightpink;
+  margin-top: 20px;
+}
+
+section #main p {
+  font-size: 20px;
+}
+
+section #main button {
+  color: maroon;
+  border-radius: 50%;
+  height: 40px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 8px;
+}
+
+section #main button:hover {
+  cursor: pointer;
+  color: mediumorchid;
+  background-color: oldlace;
+}
+/*# sourceMappingURL=portfolio.css.map */
